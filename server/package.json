@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/server.js",
     "build": "sucrase ./src -d ./dist --transforms imports",
-    "test": "jest"
+    "test": "set NODE_ENV=test jest"
   },
   "dependencies": {
     "dotenv": "^8.0.0",
