@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon src/server.js",
     "build": "sucrase ./src -d ./dist --transforms imports",
-    "test": "set NODE_ENV=test jest"
+    "pretest": "set NODE_ENV=test && sequelize db:migrate",
+    "test": "set NODE_ENV=test && jest",
+    "posttest": "set NODE_ENV=test && sequelize db:migrate:undo:all"
   },
   "dependencies": {
     "dotenv": "^8.0.0",
@@ -14,7 +16,9 @@
     "express-async-errors": "^3.1.1",
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
-    "sequelize": "^5.9.4",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1",
+    "sqlite3": "^4.1.1",
     "youch": "^2.0.10"
   },
   "devDependencies": {
@@ -28,7 +32,7 @@
     "jest": "^24.9.0",
     "nodemon": "^1.19.1",
     "prettier": "^1.18.2",
-    "sequelize-cli": "^5.5.0",
-    "sucrase": "^3.10.1"
+    "sucrase": "^3.10.1",
+    "supertest": "^4.0.2"
   }
 }
