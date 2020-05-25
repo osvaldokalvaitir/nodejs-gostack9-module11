@@ -1,7 +1,9 @@
 {
-  "name": "template-node",
+  "name": "nodejs-modulo11-novo",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://github.com/osvaldokalvaitir/nodejs-modulo11-novo",
+  "author": "Osvaldo Kalvaitir Filho <osvaldokalvaitir@outlook.com>",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.js",
