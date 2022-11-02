@@ -45,7 +45,7 @@ npm install | yarn
 # Make a copy of the .env.example file, rename it to .env and change the variables according to your environment.
 
 # Run tests
-npm test | yarn test
+npm run test | yarn test
 ```
 
 Click to learn more about the tools used: [Docker](https://github.com/osvaldokalvaitir/awesome/blob/main/src/containers/docker/docker.md), [PostgreSQL Docker Image postgres](https://github.com/osvaldokalvaitir/awesome/blob/main/src/containers/docker/images/postgres.md), [Postbird](https://github.com/osvaldokalvaitir/awesome/blob/main/src/sgdbs/postgresql/postbird.md).
