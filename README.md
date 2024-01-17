@@ -48,7 +48,7 @@ npm install | yarn
 npm run test | yarn test
 ```
 
-Click to learn more about the tools used: [Docker](https://github.com/osvaldokalvaitir/awesome/blob/main/src/containers/docker/docker.md), [PostgreSQL Docker Image postgres](https://github.com/osvaldokalvaitir/awesome/blob/main/src/containers/docker/images/postgres.md), [Postbird](https://github.com/osvaldokalvaitir/awesome/blob/main/src/sgdbs/postgresql/postbird.md).
+Click to learn more about the tools used: [Docker](https://github.com/osvaldokalvaitir/awesome/blob/main/src/containers/docker.md), [PostgreSQL Docker Image postgres](https://github.com/osvaldokalvaitir/awesome/blob/main/src/containers/docker/images/postgres.md), [Postbird](https://github.com/osvaldokalvaitir/awesome/blob/main/src/sgdbs/postgresql/postbird.md).
 
 ## :memo: License
 
